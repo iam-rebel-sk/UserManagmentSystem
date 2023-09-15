@@ -12,7 +12,7 @@ Spring Boot: Spring Boot is an excellent choice for building robust and scalable
 
 Java: Java is a widely-used and well-established programming language, known for its reliability, performance, and extensive community support. Spring is primarily built for Java, and using Java ensures compatibility and access to a rich ecosystem of libraries and frameworks.
 
-## Data Structer: List or Array for Storing Users
+## Data Structer: List for Storing Users
 
 Use a data structure like a List or an Array to store user objects. Each user object can encapsulate the attributes you mentioned: UserId, Name, UserName, Address, and Phone Number. This allows you to maintain a collection of user records in memory.
 
