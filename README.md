@@ -23,22 +23,22 @@ Use a data structure like a List or an Array to store user objects. Each user ob
 User data is input into the system via HTTP requests to specific endpoints.
 
 2.Processing and Validation:
-When a new user is added (add endpoint), the system processes and validates the incoming data, ensuring that it adheres to the expected format and constraints.
+When a new user is added (user endpoint), the system processes and validates the incoming data, ensuring that it adheres to the expected format and constraints.
 
 3.Data Storage:
 Valid user data is stored in an in-memory data structure. 
 
 4.Data Retrieval:
-When a request is made to retrieve user information (get/{userid}), the system fetches the corresponding user data either from the in-memory data structure.
+When a request is made to retrieve user information (user/{userid}), the system fetches the corresponding user data either from the in-memory data structure.
 
 5.Listing All Users:
-The getAllUser endpoint retrieves and returns a list of all users stored in the system.
+The getAllUser endpoint (user) retrieves and returns a list of all users stored in the system.
 
 6.Data Updates:
 To update user information, the system receives updated user data and applies the changes to the existing user record.
 
 7.Data Deletion:
-When a request to delete a user is received (delete/{userid}), the system identifies the user by their UserId and removes their data from the data structure.
+When a request to delete a user is received (user/{userid}), the system identifies the user by their UserId and removes their data from the data structure.
 
 8.Response:
 After each operation (add, retrieve, list, update, delete), the system sends an HTTP response to the client with the appropriate status code and data (e.g., user details, success message, or error message).
